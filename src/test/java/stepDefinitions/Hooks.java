@@ -12,6 +12,7 @@ public class Hooks {
 			m.add_place_payload_with("google", "Spanish", "Africa");
 			m.user_calls_with_http_request("AddPlaceAPI", "POST");
 			m.verify_place_id_created_maps_to_using("google", "getPlaceAPI");
+			System.out.println("Git Sample");
 		}
 	}
 }
