@@ -74,7 +74,7 @@ public class AddPlace {
 
 	public void setLanguage(String language) {
 		this.language = language;
-		System.out.println("I am google");
+
 	}
 
 }
